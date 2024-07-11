@@ -19,8 +19,8 @@ st.set_page_config(
 
 # =======================    Download Maps    ========================== #
 def toast_msg():
-    st.toast("🇧🇷 Seleção de Idioma disponível no menu lateral.")
-    st.toast("🇬🇧 Language selection available in the sidebar menu.")
+    st.toast("Seleção de Idioma disponível no menu lateral.", icon='💬')
+    st.toast("Language selection available in the sidebar menu.", icon='💬')
 
 def isMapsDownloaded():
     folder = 'Visualizations/DETER/Maps'
@@ -40,6 +40,7 @@ def download_maps():
     d = isMapsDownloaded()
 
     while not d:
+        toast_msg()
         output = 'Visualizations/DETER/Maps/maps.zip'
         data_link = 'https://drive.google.com/uc?id=11qIncS7zDWkc7-7PmbDLRVnKJna2rAPA&export=download'
 
