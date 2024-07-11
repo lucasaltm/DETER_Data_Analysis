@@ -296,8 +296,4 @@ with dmg_ty:
 # =======================        FOOTER       ========================== #
 st.image("Images/logo_aeb_mcti_horizontal_positiva_02.png")
 #st.image("http://www.inpe.br/marcasOficiais/imagens/logo_aeb_mcti_horizontal_positiva_02.png")
-ref = '###### INSTITUTO NACIONAL DE PESQUISAS ESPACIAIS. COORDENAÇÃO GERAL DE OBSERVAÇÃO DA TERRA. PROGRAMA DE MONITORAMENTO DA AMAZÔNIA E DEMAIS BIOMAS. Avisos – Amazônia Legal – Disponível em: <a href="https://terrabrasilis.dpi.inpe.br/downloads/">TerraBrasilis</a>. Acesso em: 10 jul. 2024.'
 st.markdown("<h6 style='text-align: center;'>" + texts['inpe_ref'] + "</h6>", unsafe_allow_html=True)
-#st.markdown(f'<h6 style="text-align: center;"><a href=https://github.com/lucasaltm/INPE_Data_Analysis>{texts["git"]}</a></h6>', unsafe_allow_html=True)
-
-#https://github.com/lucasaltm/INPE_Data_Analysis
