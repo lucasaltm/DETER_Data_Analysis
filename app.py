@@ -17,6 +17,37 @@ st.set_page_config(
     initial_sidebar_state="collapsed"
 )
 
+# =======================    Download Maps    ========================== #
+def isMapsDownloaded():
+    folder = 'Visualizations/DETER/Maps'
+    os.makedirs(folder, exist_ok=True)
+    total = 22
+
+    downloaded = False
+    
+    if os.path.exists(folder):
+        num = len([nome for nome in os.listdir(folder)])
+        if num >= total:
+            downloaded = True
+
+    return downloaded
+
+def download_maps():
+    d = isMapsDownloaded()
+
+    while not d:
+        output = 'Visualizations/DETER/Maps/maps.zip'
+        data_link = 'https://drive.google.com/uc?id=11qIncS7zDWkc7-7PmbDLRVnKJna2rAPA&export=download'
+
+        gdown.download(data_link, output, quiet=False)
+        
+        with zipfile.ZipFile('Visualizations/DETER/Maps/maps.zip', 'r') as zip_ref:
+            zip_ref.extractall('Visualizations/DETER/Maps')
+        d = isMapsDownloaded()
+with st.spinner(text="Downloading Maps..."):
+    download_maps()
+
+
 # =======================       TEXTS       ========================== #
 
 df_texts = pd.read_csv('texts/texts_deter.csv', sep='§', engine='python')
@@ -118,35 +149,6 @@ def center_map(html_map):
     </div>
     """
     return html_final
-
-def isMapsDownloaded():
-    folder = 'Visualizations/DETER/Maps'
-    os.makedirs(folder, exist_ok=True)
-    total = 22
-
-    downloaded = False
-    
-    if os.path.exists(folder):
-        num = len([nome for nome in os.listdir(folder)])
-        if num >= total:
-            downloaded = True
-
-    return downloaded
-
-def download_maps():
-    d = isMapsDownloaded()
-
-    while not d:
-        output = 'Visualizations/DETER/Maps/maps.zip'
-        data_link = 'https://drive.google.com/uc?id=11qIncS7zDWkc7-7PmbDLRVnKJna2rAPA&export=download'
-
-        gdown.download(data_link, output, quiet=False)
-        
-        with zipfile.ZipFile('Visualizations/DETER/Maps/maps.zip', 'r') as zip_ref:
-            zip_ref.extractall('Visualizations/DETER/Maps')
-        d = isMapsDownloaded()
-with st.spinner(text="Downloading Maps..."):
-    download_maps()
 
 def read_map(map_name):
     html_file_path = f'Visualizations/DETER/Maps/{map_name}.html'
