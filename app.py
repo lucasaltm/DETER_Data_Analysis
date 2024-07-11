@@ -18,6 +18,10 @@ st.set_page_config(
 )
 
 # =======================    Download Maps    ========================== #
+def toast_msg():
+    st.toast("🇧🇷 Seleção de Idioma disponível no menu lateral.")
+    st.toast("🇬🇧 Language selection available in the sidebar menu.")
+
 def isMapsDownloaded():
     folder = 'Visualizations/DETER/Maps'
     os.makedirs(folder, exist_ok=True)
@@ -44,7 +48,7 @@ def download_maps():
         with zipfile.ZipFile('Visualizations/DETER/Maps/maps.zip', 'r') as zip_ref:
             zip_ref.extractall('Visualizations/DETER/Maps')
         d = isMapsDownloaded()
-with st.spinner(text="Downloading Maps..."):
+with st.spinner(text="Loading..."):
     download_maps()
 
 
