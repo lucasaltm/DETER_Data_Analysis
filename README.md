@@ -47,25 +47,33 @@ streamlit run app.py
     <td><img src="Visualizations/DETER/Graphs/Graph2_EN.png" width="300"/></td>
     <td><img src="Visualizations/DETER/Graphs/Graph1_EN.png" width="300"/></td>
     <td><img src="Visualizations/DETER/Graphs/Graph3_EN.png" width="300"/></td>
-    <td><img src="Visualizations/DETER/Graphs/Graph4_EN.png" width="300"/></td>
   </tr>
   <tr>
+   <td>Deforestation by State</td>
     <td>Occurrence Counts by Class</td>
     <td>Deforestation by Class</td>
-    <td>Deforestation by State</td>
-    <td>Deforestation by Municipality</td>
+  </tr>
+   
+   <tr>
+    <td><img src="Visualizations/DETER/Graphs/Graph4_EN.png" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph9_EN.png" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph8_EN.png" width="300"/></td>
   </tr>
   <tr>
-    <td><img src="Visualizations/DETER/Graphs/Graph9_EN.png" width="300"/></td>
+    <td>Deforestation by Municipality</td>
+    <td>Deforestation in Conservation Units</td>
+    <td>Statistics by State</td>
+  </tr>
+
+   <tr>
     <td><img src="Visualizations/DETER/Graphs/Graph5_EN.png" width="300"/></td>
     <td><img src="Visualizations/DETER/Graphs/Graph6_EN.png" width="300"/></td>
     <td><img src="Visualizations/DETER/Graphs/Graph7_EN.png" width="300"/></td>
   </tr>
   <tr>
-    <td>Deforestation in Conservation Units</td>
     <td>Damage Over the Years</td>
-    <td>Yearly Analysis</td>
-    <td>Trend Analysis</td>
+     <td>Yearly Analysis</td>
+     <td>Trend Analysis</td>
   </tr>
 </table>
 
