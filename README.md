@@ -28,9 +28,8 @@ The project was developed using Streamlit and is available at [this link](https:
    - **Streamlit Application**: Web interface for interactively visualizing charts and maps.
      - `app.py`: Main script that sets up the page, downloads necessary data, loads texts in different languages, and organizes the visualization sections.
 
-4. **Visualizations**:
-   - **Charts**:
-
+4. **Visualizations**:</br>
+- **Charts**: The charts in this project provide an analysis of deforestation statistics, showcasing patterns and trends across different regions and time periods.
 <table>
   <tr>
     <td><img src="Visualizations/DETER/Graphs/Graph2_EN.png" width="300"/></td>
@@ -58,8 +57,6 @@ The project was developed using Streamlit and is available at [this link](https:
   </tr>
 </table>
 
-</br>
-
    - **Maps**: Interactive maps showing the location of deforestation alerts and their respective classes.
 
 <table>
@@ -74,3 +71,6 @@ The project was developed using Streamlit and is available at [this link](https:
     <td>Overview of deforestation in conservation units</td>
   </tr>
 </table>
+
+   - **Streamlit**: The Streamlit application serves as an interactive interface where users can explore the visualizations and analyses of deforestation data. It allows users to dynamically select different parameters and view the corresponding charts and maps.
+<img src="Images/streamlit_app.png" width="900"/>
