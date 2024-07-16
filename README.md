@@ -41,8 +41,8 @@ The project was developed using Streamlit and is available at [this link](https:
   <tr>
     <td>Occurrence Counts by Class</td>
     <td>Deforestation by Class</td>
-    <td>Statistics by State</td>
-   <td>Municipality Statistics</td>
+    <td>Deforestation by State</td>
+    <td>Deforestation by Municipality</td>
   </tr>
   <tr>
     <td><img src="Visualizations/DETER/Graphs/Graph9_EN.png" alt="Graph5_EN" width="300"/></td>
@@ -51,7 +51,7 @@ The project was developed using Streamlit and is available at [this link](https:
     <td><img src="Visualizations/DETER/Graphs/Graph7_EN.png" alt="Graph6_EN" width="300"/></td>
   </tr>
   <tr>
-    <td>Deforestation on Conservation Units</td>
+    <td>Deforestation in Conservation Units</td>
     <td>Damage Over the Years</td>
     <td>Yearly Analysis</td>
     <td>Trend Analysis</td>
