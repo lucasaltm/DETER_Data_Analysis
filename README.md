@@ -28,7 +28,19 @@ The project was developed using Streamlit and is available at [this link](https:
    - **Streamlit Application**: Web interface for interactively visualizing charts and maps.
      - `app.py`: Main script that sets up the page, downloads necessary data, loads texts in different languages, and organizes the visualization sections.
 
-4. **Visualizations**:</br>
+4. **Usage**:</br>
+To install the required dependencies, run:
+```bash
+pip install -r requirements.txt
+```
+
+To start the Streamlit application, run:
+```bash
+streamlit run app.py
+```
+
+
+5. **Visualizations**:</br>
 - **Charts**: The charts in this project provide an analysis of deforestation statistics, showcasing patterns and trends across different regions and time periods.
 <table>
   <tr>
