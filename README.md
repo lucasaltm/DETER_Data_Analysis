@@ -73,4 +73,4 @@ The project was developed using Streamlit and is available at [this link](https:
 </table>
 
    - **Streamlit Application**: Serves as an interactive interface where users can explore the visualizations and analyses of deforestation data. It allows users to dynamically select different parameters and view the corresponding charts and maps.
-<img src="Images/streamlit_app.png" width="900"/>
+<div style="text-align: center;"><img src="Images/streamlit_app.png" width="900"/></div>
