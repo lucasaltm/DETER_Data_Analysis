@@ -1,7 +1,7 @@
 <img src="Images/fire3.png"/>
 
 
-# Amazon Deforestation Monitor: Analyzing and visualizing deforestation data in the Legal Amazon using DETER data and Streamlit
+# Amazon Deforestation Monitor
 The DETER system, short for "Real-Time Deforestation Detection", is a system developed by the Brazilian National Institute for Space Research (INPE), aimed at monitoring and identifying changes in forest cover within the Legal Amazon in Brazil. This system is essential for environmental enforcement and combating illegal deforestation, providing crucial data for prevention and control actions. Through high-resolution satellite images, DETER can detect areas of deforestation and forest degradation with high precision and almost in real-time. This information is made available periodically, allowing for a swift response from environmental authorities.
 
 This project aims to analyze DETER data to monitor and visualize deforestation in the Legal Amazon. Geoprocessing and data visualization libraries were used to create charts and maps that show the extent and distribution of deforestation, facilitating the understanding of patterns and trends. 
