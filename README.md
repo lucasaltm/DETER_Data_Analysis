@@ -30,4 +30,32 @@ The project was developed using Streamlit and is available at [this link](https:
 
 4. **Visualizations**:
    - **Charts**:
+
+<table>
+  <tr>
+    <td><img src="Visualizations/DETER/Graphs/Graph2_EN.png" alt="Graph2_EN" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph1_EN.png" alt="Graph1_EN" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph3_EN.png" alt="Graph3_EN" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph4_EN.png" alt="Graph4_EN" width="300"/></td>
+  </tr>
+  <tr>
+    <td>Occurrence Counts by Class</td>
+    <td>Deforestation by Class</td>
+    <td>Statistics by State</td>
+   <td>Municipality Statistics</td>
+  </tr>
+  <tr>
+    <td><img src="Visualizations/DETER/Graphs/Graph9_EN.png" alt="Graph5_EN" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph5_EN.png" alt="Graph5_EN" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph6_EN.png" alt="Graph6_EN" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph7_EN.png" alt="Graph6_EN" width="300"/></td>
+  </tr>
+  <tr>
+    <td>Deforestation on Conservation Units</td>
+    <td>Damage Over the Years</td>
+    <td>Yearly Analysis</td>
+    <td>Trend Analysis</td>
+  </tr>
+</table>
+
    - **Maps**: Interactive maps showing the location of deforestation alerts and their respective classes.
