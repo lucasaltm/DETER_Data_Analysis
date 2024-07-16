@@ -33,10 +33,10 @@ The project was developed using Streamlit and is available at [this link](https:
 
 <table>
   <tr>
-    <td><img src="Visualizations/DETER/Graphs/Graph2_EN.png" alt="Graph2_EN" width="300"/></td>
-    <td><img src="Visualizations/DETER/Graphs/Graph1_EN.png" alt="Graph1_EN" width="300"/></td>
-    <td><img src="Visualizations/DETER/Graphs/Graph3_EN.png" alt="Graph3_EN" width="300"/></td>
-    <td><img src="Visualizations/DETER/Graphs/Graph4_EN.png" alt="Graph4_EN" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph2_EN.png" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph1_EN.png" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph3_EN.png" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph4_EN.png" width="300"/></td>
   </tr>
   <tr>
     <td>Occurrence Counts by Class</td>
@@ -45,10 +45,10 @@ The project was developed using Streamlit and is available at [this link](https:
     <td>Deforestation by Municipality</td>
   </tr>
   <tr>
-    <td><img src="Visualizations/DETER/Graphs/Graph9_EN.png" alt="Graph5_EN" width="300"/></td>
-    <td><img src="Visualizations/DETER/Graphs/Graph5_EN.png" alt="Graph5_EN" width="300"/></td>
-    <td><img src="Visualizations/DETER/Graphs/Graph6_EN.png" alt="Graph6_EN" width="300"/></td>
-    <td><img src="Visualizations/DETER/Graphs/Graph7_EN.png" alt="Graph6_EN" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph9_EN.png" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph5_EN.png" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph6_EN.png" width="300"/></td>
+    <td><img src="Visualizations/DETER/Graphs/Graph7_EN.png" width="300"/></td>
   </tr>
   <tr>
     <td>Deforestation in Conservation Units</td>
@@ -58,4 +58,19 @@ The project was developed using Streamlit and is available at [this link](https:
   </tr>
 </table>
 
+</br>
+
    - **Maps**: Interactive maps showing the location of deforestation alerts and their respective classes.
+
+<table>
+  <tr>
+    <td><img src="Images/map_states.png" width="300"/></td>
+    <td><img src="Images/map_cities.png" width="300"/></td>
+    <td><img src="Images/map_uc.png" width="300"/></td>
+  </tr>
+  <tr>
+    <td>Overview of deforestation statistics for each state</td>
+    <td>Overview of deforestation in cities of a selected state</td>
+    <td>Overview of deforestation in conservation units</td>
+  </tr>
+</table>
