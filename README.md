@@ -6,7 +6,7 @@ The DETER system, short for "Real-Time Deforestation Detection", is a system dev
 
 This project aims to analyze DETER data to monitor and visualize deforestation in the Legal Amazon. Geoprocessing and data visualization libraries were used to create charts and maps that show the extent and distribution of deforestation, facilitating the understanding of patterns and trends. 
 
-The project was developed using Streamlit and is available at [this link](https://inpe-data-analysis.streamlit.app/).
+The project was developed using Streamlit and is deployed online at [this link](https://inpe-data-analysis.streamlit.app/). The application is available in English and Portuguese, with the option to select the desired language in the sidebar of the page.
 
 ### Project Details
 
